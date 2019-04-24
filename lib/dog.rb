@@ -1,10 +1,10 @@
 class Dog
   
-  def name=
-    @name.strip
+  def name=(dogs_name)
+    @name = dogs_name
   end
   
-  def name(dogs_name)
-    @name = dogs_name
+  def name
+    @name.strip
   end
 end
